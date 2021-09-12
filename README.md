@@ -1,13 +1,13 @@
 # eslint-dashboard
 
-Dashboard for ESLint report and fix
+Interactive ESLint workflow lives in your terminal
 
 <img src="screenshots/dashboard.gif" width="560" />
 
 # Installation
 
 ```bash
-npm i eslint-dashboard
+npm i eslint-dashboard -g
 ```
 
 # Usage
@@ -26,9 +26,11 @@ const dashboard = require( 'eslint-dashboard' )
 // lint and fix: the same as `lintFiles` and `fixFiles` in `lib/lint.js`
 dashboard( files, {
   lint() {
+    // implement your own lint logic
     // return eslint lint results
   },
   fix() {
+    // implement your own fix logic
     // return eslint fix results
   }
 } )
