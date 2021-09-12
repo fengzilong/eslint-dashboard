@@ -26,13 +26,16 @@
   "dependencies": {
     "blessed": "^0.1.81",
     "eslint-formatter-mo": "^1.0.1",
-    "plur": "^4.0.0"
+    "import-cwd": "^3.0.0",
+    "log-horizon": "^0.1.2",
+    "plur": "^4.0.0",
+    "semver": "^7.3.5"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-mo": "^0.5.3"
   },
   "peerDependencies": {
-    "eslint": "7.x"
+    "eslint": ">= 7.0"
   }
 }
