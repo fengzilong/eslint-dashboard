@@ -1,0 +1,38 @@
+{
+  "name": "eslint-dashboard",
+  "version": "0.1.0",
+  "description": "diff two string",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/index.js",
+  "bin": {
+    "eslint-dashboard": "bin/cli.js"
+  },
+  "scripts": {
+    "lint": "eslint . -f mo"
+  },
+  "keywords": [],
+  "author": "fengzilong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fengzilong/diff-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fengzilong/diff-view/issues"
+  },
+  "homepage": "https://github.com/fengzilong/diff-view#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "eslint-formatter-mo": "^1.0.1",
+    "plur": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-mo": "^0.5.3"
+  },
+  "peerDependencies": {
+    "eslint": "7.x"
+  }
+}
