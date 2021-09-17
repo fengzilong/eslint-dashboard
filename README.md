@@ -1,6 +1,6 @@
 # eslint-dashboard
 
-Interactive ESLint workflow lives in your terminal
+Interactive ESLint workflow that lives in your terminal
 
 <img src="screenshots/dashboard.gif" width="560" />
 
